@@ -1,0 +1,164 @@
+
+body {
+  font-family: "Spartan",sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 3rem;
+  padding-right: 100px;
+  line-height: 1;
+}
+
+/* background image */
+
+.bg-top {
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-bottom {
+  position: absolute;
+  top: 140px;
+  right: 0px;
+}
+
+/* Title section */
+
+#title {
+    padding: 10% 10% 5%;
+    background-image: url(/images/bg-pattern-top-desktop.svg);
+}
+
+.description {
+  color: hsl(303, 10%, 53%);
+  padding-right: 8%;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* Rating section */
+
+.review {
+  padding: 3.5%;
+  background-color: #f7f2f7;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  border-radius: 10px;
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.rating-2 {
+  position: relative;
+  left: 50px;
+}
+
+.rating-3 {
+  position: relative;
+  left: 100px;
+}
+
+.fas {
+  padding: 2px;
+  color: #FF9933;
+}
+
+span {
+  margin-left: 5%;
+}
+
+/* Testimonials */
+
+#Testimonials {
+  margin: 2% 10% 10%;
+  color: White;
+}
+
+#Testimonials img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.name {
+  float: right;
+  line-height: 1;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+.name p {
+  color: hsl(333, 80%, 67%);
+}
+
+.content {
+  margin-top: 40px;
+  color: #f7f2f7;
+}
+
+.colton {
+  background-color:  hsl(300, 43%, 22%);
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.irene {
+  background-color:  hsl(300, 43%, 22%);
+  padding: 3%;
+  border-radius: 10px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.anne {
+  background-color:  hsl(300, 43%, 22%);
+  padding: 3%;
+  border-radius: 10px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+/* following conditions is for the medium and small screen sizes */
+
+@media (max-width: 600px) {
+
+  /* Title section */
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    padding-right: 0;
+  }
+
+  .description {
+    padding-right: 0;
+  }
+
+  /* Rating section */
+
+  span {
+    padding-top: 2%;
+    display: block;
+  }
+
+  .review {
+    width: 100%;
+    left: 0;
+  }
+
+  /* Testimonials */
+
+  .col-lg-4 {
+    left: 0;
+    top: 0;
+    margin-bottom: 3%;
+  }
+
+}
